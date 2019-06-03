@@ -16,6 +16,10 @@ module Jekyll
         return sidebar_helper(item, 'unity')
     end
 
+    def cordova_sidebar_link(item)
+            return sidebar_helper(item, 'cordova')
+    end
+
     def windows_sidebar_link(item)
       return sidebar_helper(item, 'windows')
     end
