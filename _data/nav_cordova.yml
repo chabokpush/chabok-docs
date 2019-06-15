@@ -6,7 +6,13 @@
       title: راه‌اندازی
     - id: tracker
       title: ترکر نصب
+    - id: chabok-messaging
+      title: پیام چابک
+    - id: deeplink
+      title: دیپ لینک
     - id: user-management
       title: گروه‌بندی کاربران
     - id: behavior-tracking
       title: رصد رفتار درون‌برنامه‌ای
+    - id: features
+      title: امکانات دیگر
