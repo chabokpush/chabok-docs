@@ -13,9 +13,9 @@ next: tracker.html
   
 [۱- نصب کتابخانه](/cordova/sdk-setup.html#۱--نصب-کتابخانه)  
     
-[۲- مقداردهی اولیه (Initialize)](/cordova/sdk-setup.html#۳--مقداردهی-اولیه-initialize)  
+[۲- مقداردهی اولیه (Initialize)](/cordova/sdk-setup.html#۲--مقداردهی-اولیه-initialize)  
   
-[۳- ثبت کاربر (Register)](/cordova/sdk-setup.html#۴--ثبت-کاربر-register)  
+[۳- ثبت کاربر (Register)](/cordova/sdk-setup.html#۳--ثبت-کاربر-register)  
   
 <Br>  
   
@@ -86,11 +86,6 @@ AdpPushClient.get().setDevelopment(DEV_MODE);
 ```  
   
 > `نکته`: برای درخواست حساب محیط **عملیاتی**، در بخش تنظیمات پنل، وارد بخش [**درخواست حساب عملیاتی**](https://sandbox.push.adpdigital.com/front/setting/accountRequest) شوید و درخواست خود را ثبت نمایید تا پس از تایید و ساخت حساب عملیاتی شما، اطلاعات جدید حسابتان (AppId, APIKey, Username و Password) تعیین گردد.   
-در متد `onTerminate` کلاس `Application` که در واقع آخرین فراخوانی در چرخه حیات این کلاس است، متد `dismiss` از کلاینت چابک را فراخوانی نمایید تا منابع در اختیار آزاد شوند. واضح است بعد از فراخوانی این متد دیگر نمی‌توان از نمونه جاری کلاینت استفاده کرد و باید دوباره نمونه‌سازی کنید.  
-  
-```java  
-AdpPushClient.get().dismiss();  
-```  
   
 <Br>  
   
