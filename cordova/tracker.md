@@ -156,6 +156,20 @@ AdpPushClient.get().track("purchase", data);
 ```
 برای اطلاعات بیشتر مربوط به رصد رویدادها [اینجا](/cordova/behavior-tracking.html) را مطالعه کنید.
 
+##### رصد درآمد (Tracking Revenue)
+
+شما می‌توانید در‌آمدی که کاربران با نشان دادن رفتاری از خود (مانند خرید) تولید می‌کنند را رصد و ذخیره کنید. این کار را باید با متد `trackPurchase` انجام دهید. به عنوان مثال کاربر خریدی را با ارزش ۵۰ هزار تومان انجام داده است.
+
+نمونه:
+
+```javascript
+const eventData = {
+          revenue: 500000,
+          currency: 'RIAL'
+}
+chabok.trackPurchase('Purchase', eventData)
+```
+
 <br>
 
 #### ۳.۱. تست راه‌اندازی 
@@ -189,12 +203,12 @@ AdpPushClient.get().track("purchase", data);
 
 حساب‌ رایگان:
 
-```javascipt
+```bash
 https://sand.chabokpush.com/JY@4sc
 ```  
 حساب عملیاتی:
 
-```javascipt
+```bash
 https://a.chabok.io/JY@4sc
 ```  
 
